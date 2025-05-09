@@ -1,0 +1,170 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0"/>
+  <title>Jefford Wasawas Portfolio</title>
+  <link rel="stylesheet" href="home.css" />
+</head>
+<body>
+
+  <header class="main-header">
+    <div class="logo">JW</div>
+    <nav class="main-nav">
+      <ul>
+        <li><a href="#about">About me</a></li>
+        <li><a href="#skills">Skills</a></li>
+        <li><a href="#learning">Learning</a></li>
+        <li><a href="#contact" class="contact-button">Contact Me</a></li>
+      </ul>
+    </nav>
+  </header>
+
+  <section class="matrix-hero">
+    <canvas id="matrix-bg"></canvas>
+    <div class="hero-overlay">
+      <div class="hero-content">
+        <p class="intro-text">Hi, I am</p>
+        <h1 class="name"><span id="typewriter"></span></h1>
+        <p class="title"><span id="typed-role"></span></p>
+        <div class="hero-image-container">
+          <img src="./pic/494819300_1023518066026209_2353903470442477526_n (1).jpg" alt="Jefford Wasawas" class="hero-image">
+        </div>
+      </div>
+    </div>
+  </section>
+  
+  
+  
+  
+
+  <!-- ABOUT SECTION -->
+  <section id="about" class="about-section">
+    <h2 class="section-title">About Me</h2>
+    <p class="about-text">
+      I'm passionate about building beautiful user interfaces and clean experiences. I love solving real-world problems with code.
+    </p>
+
+    <div class="about-cards">
+      <div class="about-card">
+        <div class="icon-bg"></div>
+        <h3>Design</h3>
+        <p>I can create clean UI designs from scratch or work with your vision to bring it to life.</p>
+      </div>
+      <div class="about-card">
+        <div class="icon-bg"></div>
+        <h3>Development</h3>
+        <p>I write modern HTML, CSS, and JavaScript to build interactive and responsive websites.</p>
+      </div>
+      <div class="about-card">
+        <div class="icon-bg"></div>
+        <h3>Maintenance</h3>
+        <p>I keep websites running smoothly with updates, performance tuning, and feature improvements.</p>
+      </div>
+    </div>
+  </section>
+
+  <!-- SKILLS SECTION -->
+  <!-- SKILLS SECTION with PARTICLES -->
+<section id="skills" class="skills-section">
+  <div id="tsparticles-skills"></div>
+
+  <div class="skills-content">
+    <h2 class="section-title"><span>Skills</span></h2>
+
+    <div class="skills-group">
+      <h3>Using Now:</h3>
+      <div class="skills-icons">
+        <img src="https://cdn.jsdelivr.net/gh/devicons/devicon/icons/html5/html5-original.svg" alt="HTML5">
+        <img src="https://cdn.jsdelivr.net/gh/devicons/devicon/icons/css3/css3-original.svg" alt="CSS3">
+        <img src="https://cdn.jsdelivr.net/gh/devicons/devicon/icons/javascript/javascript-original.svg" alt="JavaScript">
+        <img src="https://cdn.jsdelivr.net/gh/devicons/devicon@latest/icons/figma/figma-original.svg" alt="Figma">
+      </div>
+    </div>
+
+    <div class="skills-group">
+      <h3>Learning:</h3>
+      <div class="skills-icons">
+        <img src="https://cdn.jsdelivr.net/gh/devicons/devicon/icons/nodejs/nodejs-original.svg" alt="Node.js">
+        <img src="https://cdn.jsdelivr.net/gh/devicons/devicon/icons/mysql/mysql-original.svg" alt="MySQL">
+        <img src="https://cdn.jsdelivr.net/gh/devicons/devicon/icons/typescript/typescript-original.svg" alt="TypeScript">
+      </div>
+    </div>
+
+    <div class="skills-group">
+      <h3>Other Skills:</h3>
+      <div class="skills-icons">
+        <img src="https://cdn.jsdelivr.net/gh/devicons/devicon@latest/icons/canva/canva-original.svg" />       
+        <img src="https://cdn.jsdelivr.net/gh/devicons/devicon@latest/icons/c/c-original.svg" />
+        <img src="https://cdn.jsdelivr.net/gh/devicons/devicon/icons/cplusplus/cplusplus-original.svg" alt="C++">
+        <img src="https://cdn.jsdelivr.net/gh/devicons/devicon@latest/icons/photoshop/photoshop-original.svg" />
+      </div>
+    </div>
+  </div>
+</section>
+
+  <!-- LEARNING SECTION -->
+  <section id="learning" class="learning-section">
+    <h2 class="section-title">What I Learned</h2>
+    <div class="learning-cards">
+      <div class="learning-card">
+        <h3>HTML</h3>
+        <p>I learned how to structure websites using clean and semantic HTML elements.</p>
+      </div>
+      <div class="learning-card">
+        <h3>CSS</h3>
+        <p>I gained skills in designing layouts, styling pages, and creating responsive designs.</p>
+      </div>
+      <div class="learning-card">
+        <h3>JavaScript</h3>
+        <p>I learned to make websites interactive and dynamic using JavaScript fundamentals.</p>
+      </div>
+    </div>
+  </section>
+
+  <!-- CONTACT SECTION -->
+  <section id="contact" class="contact-section">
+    <h2 class="section-title">Contact</h2>
+    <p class="contact-text">Need a developer? Want to collaborate? Reach out anytime.</p>
+
+    <form id="contact-form" class="contact-form" novalidate>
+      <input type="text" id="name" placeholder="Enter your name*" required />
+      <input type="email" id="email" placeholder="Enter your email*" required />
+      <input type="tel" id="phone" placeholder="Phone number" />
+      <span id="phone-error" style="font-size: 0.9em;"></span>
+      <textarea id="message" placeholder="Your message*" required></textarea>
+      <button type="submit">Submit</button>
+    </form>
+    
+
+    <div class="footer-bottom">
+      <a href="#top" class="back-to-top">↑ Back to Top</a>
+      <div class="footer-socials">
+        <a href="https://web.facebook.com/" target="_https://web.facebook.com/">
+          <img src="https://cdn-icons-png.flaticon.com/512/733/733547.png" alt="Facebook" width="20">
+        </a>
+        <a href="https://www.linkedin.com/feed/" target="_www.linkedin.com/in/
+        jeppord-wasawas-6227a3329
+        ">
+          <img src="https://cdn.jsdelivr.net/gh/devicons/devicon/icons/linkedin/linkedin-original.svg" alt="LinkedIn" width="20">
+        </a>
+        <a href="https://www.instagram.com/" target="_https://www.instagram.com/porddyyyy/">
+          <img src="https://cdn-icons-png.flaticon.com/512/733/733558.png" alt="Instagram" width="20">
+        </a>
+        <a href="https://github.com/Pordy23">
+          
+          <img src="https://cdn.jsdelivr.net/gh/devicons/devicon@latest/icons/github/github-original.svg"
+          alt="Email" width="20">
+        </a>
+      </div>
+      <p class="footer-copy">@2025 Jefford Wasawas All Rights Reserved.</p>
+    </div>
+    
+  </section>
+  
+
+  
+
+  <script src="home.js"></script>
+</body>
+</html>
